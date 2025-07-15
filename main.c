@@ -3,11 +3,11 @@
 
 /* 
 *	use this line if you are plan to using visual studio
-*	since msvc gives you compiler erorr due to not being 
+*	since msvc gives you compiler error due to not being 
 *	safe use scanf so therefore we force compiler ignore
 *	otherwise replace scanf_s with scanf in line 32 !
 */
-#pragma warning(suppress: 4996)
+#pragma error(suppress: 4996)
 
 
 
